@@ -1,0 +1,30 @@
+Dec 06 19:47:21.447 HYPERVISOR: Release 0.2.16-amd64/Darwin (tag 2015060118)
+Dec 06 19:47:21.448 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 58041.
+Dec 06 19:47:21.468 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 06 19:47:21.469 HYPERVISOR: exec_cmd: hypervisor working_dir /Volumes/SANDISKDUAL/Ubuntu/GNS3/projects/EIGRP/project-files/dynamips 
+Dec 06 19:47:21.469 GENERAL: working_dir=/Volumes/SANDISKDUAL/Ubuntu/GNS3/projects/EIGRP/project-files/dynamips
+Dec 06 19:47:21.470 HYPERVISOR: exec_cmd: hypervisor working_dir /Volumes/SANDISKDUAL/Ubuntu/GNS3/projects/EIGRP/project-files/dynamips/031af516-ebc3-45a5-ac5e-127c3e243816 
+Dec 06 19:47:21.470 GENERAL: working_dir=/Volumes/SANDISKDUAL/Ubuntu/GNS3/projects/EIGRP/project-files/dynamips/031af516-ebc3-45a5-ac5e-127c3e243816
+Dec 06 19:47:21.471 HYPERVISOR: exec_cmd: vm create R6 9 c7200 
+Dec 06 19:47:21.471 VM: VM R6 created.
+Dec 06 19:47:21.472 HYPERVISOR: exec_cmd: vm set_con_tcp_port R6 5005 
+Dec 06 19:47:21.473 HYPERVISOR: exec_cmd: c7200 get_mac_addr R6 
+Dec 06 19:47:21.474 HYPERVISOR: exec_cmd: vm get_status R6 
+Dec 06 19:47:21.474 HYPERVISOR: exec_cmd: vm slot_add_binding R6 0 0 C7200-IO-FE 
+Dec 06 19:47:21.475 HYPERVISOR: exec_cmd: vm set_disk0 R6 0 
+Dec 06 19:47:21.477 HYPERVISOR: exec_cmd: vm set_ios R6 /Users/chemist/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Dec 06 19:47:21.477 HYPERVISOR: exec_cmd: vm set_ram R6 512 
+Dec 06 19:47:21.478 HYPERVISOR: exec_cmd: c7200 set_mac_addr R6 ca09.24f8.0000 
+Dec 06 19:47:21.480 HYPERVISOR: exec_cmd: vm get_status R6 
+Dec 06 19:47:21.480 HYPERVISOR: exec_cmd: vm slot_add_binding R6 1 0 PA-4T+ 
+Dec 06 19:47:21.481 HYPERVISOR: exec_cmd: vm get_status R6 
+Dec 06 19:47:21.482 HYPERVISOR: exec_cmd: vm set_idle_pc R6 0x61c32cfc 
+Dec 06 19:47:21.483 HYPERVISOR: exec_cmd: vm set_nvram R6 512 
+Dec 06 19:47:21.486 HYPERVISOR: exec_cmd: vm set_config R6 configs/i9_startup-config.cfg 
+Dec 06 19:47:21.490 HYPERVISOR: exec_cmd: vm set_config R6 configs/i9_startup-config.cfg /Volumes/SANDISKDUAL/Ubuntu/GNS3/projects/EIGRP/project-files/dynamips/031af516-ebc3-45a5-ac5e-127c3e243816/configs/i9_private-config.cfg 
+Dec 06 19:47:22.355 HYPERVISOR: exec_cmd: nio create_udp udp-af1ea194-7f09-4c96-b1e6-50706c052b06 10004 127.0.0.1 10005 
+Dec 06 19:47:22.356 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 0 0 udp-af1ea194-7f09-4c96-b1e6-50706c052b06 
+Dec 06 19:47:22.357 HYPERVISOR: exec_cmd: vm get_status R6 
+Dec 06 19:47:22.513 HYPERVISOR: exec_cmd: nio create_udp udp-6f9e2463-a375-47a9-b21c-b1553484c646 10007 127.0.0.1 10006 
+Dec 06 19:47:22.514 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R6 1 0 udp-6f9e2463-a375-47a9-b21c-b1553484c646 
+Dec 06 19:47:22.515 HYPERVISOR: exec_cmd: vm get_status R6 
